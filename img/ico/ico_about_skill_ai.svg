@@ -1,0 +1,12 @@
+<svg id="ico_about_skill_ai" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69.917" height="69.917" viewBox="0 0 69.917 69.917">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_153" data-name="長方形 153" width="69.917" height="69.917" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_28" data-name="グループ 28" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <path id="パス_45" data-name="パス 45" d="M63.869,69.917H6.048A6.055,6.055,0,0,1,0,63.869V6.048A6.054,6.054,0,0,1,6.048,0H63.869a6.055,6.055,0,0,1,6.048,6.048V63.869a6.055,6.055,0,0,1-6.048,6.048M6.048,1.728a4.326,4.326,0,0,0-4.32,4.32V63.869a4.326,4.326,0,0,0,4.32,4.32H63.869a4.326,4.326,0,0,0,4.32-4.32V6.048a4.326,4.326,0,0,0-4.32-4.32Z" transform="translate(0 0)" fill="#fff"/>
+    <text id="A" transform="translate(11.879 49.325)" fill="#fff" font-size="44" font-family="YuGothic-Bold, Yu Gothic" font-weight="700"><tspan x="0" y="0">A</tspan></text>
+    <text id="i" transform="translate(43.211 50.325)" fill="#fff" font-size="45" font-family="YuGothic-Bold, Yu Gothic" font-weight="700"><tspan x="0" y="0">i</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,443 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* アニメーション定義 */
+/* 上にスライドするアニメーション */
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px); /* 画面外から上にスライドしてくる */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* 元の位置に戻る */
+  }
+}
+.content { /* 初期状態 */
+  opacity: 0;
+  transform: translateY(30px); /* 初期状態では見えない */
+  transition: opacity 2s ease, transform 2s ease; /* 2秒でアニメーション */
+}
+.content.fade-in {/* アニメーション適用時 */
+  animation: slideUp 2s ease forwards; /* 上にスライドするアニメーション */
+}
+
+/* ページ外リンクのアニメーション */
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease; /* 1秒でフェードアウト */
+}
+.fade-in {
+  opacity: 1;
+  transition: opacity 1s ease; /* 1秒でフェードイン */
+}
+body { /* 初期状態 */
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+/* ページ内リンク用（スムーズスクロール） */
+html {
+  scroll-behavior: smooth; /* スムーズスクロール */
+}
+
+/* トップビューアニメーション*/
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px); /* 30px下から */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* 元の位置 */
+  }
+}
+
+
+
+/* トップビュー */
+.top_view {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top_img_wrap { /* 画像 */
+  width: 100%;
+  overflow: hidden; /* はみ出た部分を非表示 */
+}
+.top_img_wrap img {
+  width: 100%;
+  height: auto; /* 高さを自動調整 */
+  object-fit: cover;
+  object-position: center;
+  display: block; /* 余白バグ修正 */
+}
+/* アニメーション */
+.background_wrap {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+/* visibleクラスを追加すると、透明度が1になる */
+.background_wrap {
+  opacity: 1;
+}
+.top_img_wrap img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; /* アスペクト比を維持しつつ、指定サイズに収める */
+  object-position: center; /* 画像の中央を基準にトリミング */
+}
+.background_wrap { /* グレー部分 */
+  background-color: #E4E4E4; /* グレー背景 */
+  width: 100%;
+  padding: 136px 0 96px;
+}
+.name_jpn {/* 日本語名前フォント */
+  font-family: 'Zen Kaku Gothic New';
+  font-weight: 500;
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 0.5em;
+  margin-top: 16px;
+}
+.name_eng { /* 英語名前フォント */
+  font-family: 'Zen Kaku Gothic New';
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.3em;
+}
+.about_text { /* 概略部分 */
+  font-family: 'Zen Kaku Gothic New';
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  line-height: 1.8;
+  margin-top: 16px;
+}
+ /* レスポンシブ対応  */
+@media (max-width: 768px) {
+    .top_img_wrap {
+    height: 690px;
+    }
+}
+
+
+/* Strength  */
+.strength {
+  text-align: center;
+  margin: 160px auto 96px;
+}
+.strength_img {
+  margin-top: 30px;
+}
+.strength_wrap {/* 強みセクションのレイアウト */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 0 
+}
+.strength_item {/* 各強みのボックス */
+  width: 304px;
+  align-items: center;
+  /* アニメーション */
+  opacity: 0; 
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.strength_item.fade-in {
+  animation: fadeInUp 1s ease forwards;
+}
+
+
+.strength_ttl {/* 見出し */
+  font-size: 24px;
+  font-family: 'Zen Kaku Gothic New';
+  font-weight: 500;
+  color: #707070;
+  margin: 24px 0 16px;
+}
+.strength_text {/* テキスト */
+  font-family: 'Zen Kaku Gothic New';
+  font-size: 16px;
+  color: #707070;
+  line-height: 28px;
+  text-align: left;
+}
+ /* レスポンシブ対応  */
+@media (max-width: 1004px) {
+	.strength_item { /* 各強みのボックス */
+		width: 232px;		
+	}	
+}
+@media (max-width: 768px) { 
+	.strength_wrap { /* 強みセクションのレイアウト */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 40px 0;	
+	}
+	.strength_item { /* 各強みのボックス */
+		width: 100%;
+	}		
+}
+
+
+/* skill */
+.Skill {
+  background-color: #E4E4E4;
+  padding: 88px 0;
+}
+.skill_wrap { /* 4カラムレイアウト */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skill_item {
+  width: 39%;
+  min-height: 160px;
+  background: #9CD1AB; /* シンプルな単色背景 */
+  border-radius: 0 0 0 32px;
+  padding: 32px 48px;
+  display: flex; /* タテ2カラムにするため */
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 32px;
+}
+.flexbox { /* タイトル・アイコンのレイアウト */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.skill_ttl { /* テキスト */
+  font-family: 'Zen Kaku Gothic New';
+  font-size: 24px;
+  font-weight: 500;
+  color: #707070;
+  line-height: 24px;
+  margin-top: 12px;
+}
+.skill_text {
+  font-family: 'Zen Kaku Gothic New';
+  font-size: 14px;
+  color: #707070;
+  line-height: 24px;
+  margin-top: 12px;
+}
+/* レスポンシブ対応  */
+@media (max-width: 1004px) {
+	.skill_item { /* 4カラムレイアウト */
+		width: 36%;		
+	}	
+	.skill_icon { /* アイコンの大きさ調整 */
+		width: auto;
+		height: 80%;
+	}
+}
+@media (max-width: 768px) {
+	.skill_wrap { /* 1カラムレイアウト */
+    	width: 100%;
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    }
+	.skill_item { /* スキルカード */
+ 		width: 80%;	
+	}
+}
+@media (max-width: 480px) {
+	.skill_wrap { /* 1カラムレイアウト */
+    	width: 100%;
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    }
+	.skill_item { /* スキルカード */
+ 		width: 70%;	
+	}
+	.skill_icon { /* アイコンの大きさ調整 */
+		max-height: 48px; 
+ 	    width: auto; 
+	}
+}
+
+
+/* career */
+.career {
+	background-color: #E4E4E4;
+    padding: 80px 0 160px;
+}
+.career_wrap { /* アイコンとテキストを横レイアウト */
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 32px;
+}
+.text_container { /* テキスト全体 */
+	display: flex;
+	flex-direction: column;	
+	gap: 64px 0;
+	margin-left: 56px;
+}
+.text_container_item { /* テキスト要素 */
+	max-width: 800px;
+  /* アニメーション */
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.text_container_item.fade-in {/* アニメーション */
+  animation: fadeInUp 1s ease forwards;
+}
+.ico_container { /* アイコン */
+    width: 30px;
+    height: 650px; 
+	background-image: url("../img/ico/ico_about_career.svg");
+	background-position: center;
+	background-repeat: no-repeat; 
+	margin-top: -4px;
+}
+.text_container_item h5 { /* フォント */
+	font-family: 'Zen Kaku Gothic New';
+    font-size: 16px;
+    color: #9CD1AB;
+}
+.text_container_item h6 { /* フォント */
+	font-family: 'Zen Kaku Gothic New';
+    font-size: 16px;
+	font-weight: 500;
+    color: #707070;
+	margin: 8px 0 4px;
+}
+.text_container_item p { /* フォント */
+	font-family: 'Zen Kaku Gothic New';
+    font-size: 14px;
+    color: #707070;
+    line-height: 22px;
+}
+ /* レスポンシブ対応  */
+@media (max-width: 1004px) {
+	.ico_container { /* アイコン */
+	background-image: url("../img/ico/ico_about_career_1004.svg");
+	}
+}
+@media (max-width: 768px) {
+	.ico_container { /* アイコン */
+	background-image: url("../img/ico/ico_about_career_768.svg");
+	width: 50px;
+    height: 770px; 
+	}
+}
+@media (max-width: 480px) { 
+	.ico_container { /* アイコン */
+	background-image: url("../img/ico/ico_about_career_480.svg");
+	width: 90px;
+    height: 1060px; 
+	}
+}
+	
+	
+/* likes */
+.likes {
+	background-color: #fff;
+    padding: 88px 0 144px; /* 上下余白 */
+	display: flex;
+	justify-content: center;
+}
+.likes_img_wrap { /* 4行配置 */
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+	justify-content: center; 
+	margin-top: 32px;
+}
+.img_item {  
+    position: relative;
+    width: calc(25% - 20px); 
+    height: auto;
+    overflow: hidden;
+}
+.img_item img {  
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease; 
+}
+.overlay { /* ホバー時の黒マスクとテキスト表示 */  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; /* 文字を上下中央に配置 */
+  align-items: flex-start;
+  text-align: left;
+  padding: 0 16px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.img_item:hover .overlay {  
+  opacity: 1;
+}
+.overlay-ttl { /* タイトル */
+	font-family: 'Zen Kaku Gothic New';
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px; /* タイトルと説明の間隔 */
+}
+.overlay-text { /* 説明文 */
+	font-family: 'Zen Kaku Gothic New';
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 1004px) { 
+  .overlay-ttl { /* タイトル */
+    font-size: 12px;
+    margin-bottom: 8px; /* タイトルと説明の間隔 */
+	}
+.overlay-text { /* 説明文 */
+    font-size: 12px;
+	}
+}
+@media (max-width: 768px) { 
+    .img_item {
+    width: calc(50% - 20px); /* 2行配置 */
+    }
+}
+@media (max-width: 480px) {
+    .likes_img_wrap { /* 1行配置 */
+    display: flex;
+    flex-direction: column; 
+    height: auto; 
+    flex-wrap: nowrap; 
+    }
+    .img_item {
+    width: 100%;
+    height: auto; /* 画像の高さも自動 */
+    margin-bottom: 20px; /* 画像間の余白 */
+    }
+	.overlay-ttl { /* タイトル */
+    font-size: 16px;
+	}
+.overlay-text { /* 説明文 */
+    font-size: 16px;
+	}
+	
+	
+	
+}
+	
+	
