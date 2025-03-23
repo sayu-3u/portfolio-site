@@ -244,20 +244,20 @@ a.project:hover { /* ホバー時 */
   justify-content: center;
 }
 .name_jpn { /* テキスト */
-  font-family: 'Zen Kaku Gothic New';
+  font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 500;
   color: #fff;
   font-size: 40px;
   letter-spacing: 0.5em;
 }.name_eng {/* テキスト */
-  font-family: 'Zen Kaku Gothic New';
+  font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 400;
   color: #fff;
   font-size: 16px;
   letter-spacing: 0.38em;
 }
 .about_text {/* テキスト */
-  font-family: 'Zen Kaku Gothic New';
+  font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: lighter;
   color: #fff;
   font-size: 16px;
