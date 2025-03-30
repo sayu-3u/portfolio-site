@@ -128,14 +128,14 @@ h1.sub_ttl {
 }
 p.subject { /* テキスト */
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   color: #707070;
   font-size: 14px;
   margin: 24px 0 2px;
 }
 a.project { /* テキスト */
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 
   color: #707070;
   font-size: 24px;
@@ -265,7 +265,7 @@ a.project:hover { /* ホバー時 */
   line-height: 30px;
   margin-top: 40px;
 }
-.viewmore {/* テキスト */
+.viewmore {
   font-family: 'Tw Cen MT';
   font-weight: lighter;
   color: #fff;
@@ -273,13 +273,18 @@ a.project:hover { /* ホバー時 */
   letter-spacing: 0.05em;
   text-decoration: none;
   margin: 0 auto;
-  display: inline-block;/* ホバー時設定 */
-  text-decoration: none;/* ホバー時設定 */
-  transition: transform 0.3s ease-in-out;/* ホバー時設定 */
+  display: inline-block;
+  padding: 16px 24px; /* ボタンの余白 */
+  border: 2px solid #fff; /* 白色の枠線 */
+  border-radius: 8px; /* 角を丸くする */
+  text-align: center;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
-.viewmore:hover { /* ホバー時1.1倍に拡大 */
+.viewmore:hover {
   transform: scale(1.1); 
-  font-weight: 600;
+  font-weight: 400;
+  background-color: #fff; /* ホバー時の背景を白に */
+  color: #D7D7D7; /* ホバー時の文字色を黒に */
 }
 
  /* レスポンジブ */
