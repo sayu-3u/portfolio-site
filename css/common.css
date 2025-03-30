@@ -122,6 +122,7 @@ footer {
 }
 .ico_saimu_big { /* フッターロゴ・コピーライト */
     height: 95px; 
+	font-family: 'Tw Cen MT', 'Arial Rounded MT Bold', 'Avenir Next', 'Poppins', sans-serif;
 	transition: transform 0.3s ease-in-out; /* なめらかに変化 */
 }
 .ico_saimu_big:hover { /* アイコンホバー時 */
@@ -165,7 +166,7 @@ nav ul {
 }
 nav ul li a {
     text-decoration: none;
-    font-family: 'Tw Cen MT';
+    font-family: 'Tw Cen MT', 'Arial Rounded MT Bold', 'Avenir Next', 'Poppins', sans-serif;
     color: #9CD1AB;
     font-size: 16px;
 	transition: transform 0.3s ease, color 0.3s ease, letter-spacing 0.3s ease; /* スムーズな変化をつける */
