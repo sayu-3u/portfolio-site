@@ -67,14 +67,14 @@ html {
   text-align: center;
 }
 h1.main_ttl { /* タイトルスタイル */
-  font-family: 'Tw Cen MT', sans-serif;
+  font-family: 'Tw Cen MT', 'Century Gothic', 'Avant Garde', 'Poppins', sans-serif;
   font-weight: 400;
   color: #9CD1AB;
   font-size: 144px;
   margin: 0;
 }
 h1.sub_ttl {
-  font-family: 'Tw Cen MT', sans-serif;
+  font-family: 'Tw Cen MT', 'Century Gothic', 'Avant Garde', 'Poppins', sans-serif;
   font-weight: 400;
   color: #9CD1AB;
   font-size: 56px;
@@ -266,7 +266,7 @@ a.project:hover { /* ホバー時 */
   margin-top: 40px;
 }
 .viewmore {
-  font-family: 'Tw Cen MT';
+  font-family: 'Tw Cen MT', 'Century Gothic', 'Avant Garde', 'Poppins', sans-serif;
   font-weight: lighter;
   color: #fff;
   font-size: 20px;
