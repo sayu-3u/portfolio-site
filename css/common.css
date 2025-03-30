@@ -45,7 +45,7 @@ p{
     align-items: center; /* 上下中央揃え */	
 }
 h2.ttl {
-    font-family: 'Tw Cen MT', sans-serif;
+    font-family: 'Tw Cen MT', 'Century Gothic', 'Avant Garde', 'Poppins', sans-serif;
     font-weight: 400; 
     color: #9CD1AB;    
     font-size: 56px;
