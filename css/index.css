@@ -219,7 +219,7 @@ a.project:hover { /* ホバー時 */
 
 /* about */
 .about {
-  background-color: #D7D7D7;
+  background-color: #153359;
   width: 100%;
   padding: 64px 0;
   display: flex;   /* 上下中央配置 */
@@ -245,13 +245,13 @@ a.project:hover { /* ホバー時 */
 }
 .name_jpn { /* テキスト */
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #fff;
   font-size: 40px;
   letter-spacing: 0.5em;
 }.name_eng {/* テキスト */
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: #fff;
   font-size: 16px;
   letter-spacing: 0.38em;
