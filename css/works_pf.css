@@ -84,11 +84,13 @@ html {
     font-size: 30px;
 	letter-spacing: 0.1em;
 	margin-right: 16px;
+	font-weight: 600;
 }
 .subject {
     font-family: "Zen Kaku Gothic New", sans-serif;
     color: #707070;    
     font-size: 14px;
+    font-weight: 600;
 }
 .works_text {
     font-family: "Zen Kaku Gothic New", sans-serif;
