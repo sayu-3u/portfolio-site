@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69.917" height="69.917" viewBox="0 0 69.917 69.917">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
   <defs>
     <clipPath id="clip-path">
-      <rect id="長方形_154" data-name="長方形 154" width="69.917" height="69.917" fill="none"/>
+      <rect id="長方形_354" data-name="長方形 354" width="70" height="70" fill="none"/>
     </clipPath>
   </defs>
-  <g id="ico_about_skill_ps" transform="translate(-2)">
-    <g id="グループ_30" data-name="グループ 30" transform="translate(2 0)" clip-path="url(#clip-path)">
-      <path id="パス_46" data-name="パス 46" d="M63.869,69.917H6.048A6.055,6.055,0,0,1,0,63.869V6.048A6.054,6.054,0,0,1,6.048,0H63.869a6.055,6.055,0,0,1,6.048,6.048V63.869a6.055,6.055,0,0,1-6.048,6.048M6.048,1.728a4.326,4.326,0,0,0-4.32,4.32V63.869a4.326,4.326,0,0,0,4.32,4.32H63.869a4.326,4.326,0,0,0,4.32-4.32V6.048a4.326,4.326,0,0,0-4.32-4.32Z" transform="translate(0 0)" fill="#fff"/>
-      <text id="P" transform="translate(7.205 51.673)" fill="#fff" font-size="45" font-family="YuGothic-Bold, Yu Gothic" font-weight="700"><tspan x="0" y="0">P</tspan></text>
-      <text id="s" transform="translate(36.088 51.673)" fill="#fff" font-size="45" font-family="YuGothic-Bold, Yu Gothic" font-weight="700"><tspan x="0" y="0">s</tspan></text>
+  <g id="ico_about_skill_ps" transform="translate(0 0)">
+    <g id="グループ_168" data-name="グループ 168" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="パス_69" data-name="パス 69" d="M63.945,70H6.055A6.062,6.062,0,0,1,0,63.945V6.055A6.062,6.062,0,0,1,6.055,0h57.89A6.062,6.062,0,0,1,70,6.055v57.89A6.062,6.062,0,0,1,63.945,70M6.055,1.73A4.331,4.331,0,0,0,1.73,6.055v57.89A4.331,4.331,0,0,0,6.055,68.27h57.89a4.331,4.331,0,0,0,4.325-4.325V6.055A4.331,4.331,0,0,0,63.945,1.73Z" transform="translate(0 0)" fill="#fff"/>
+      <path id="パス_70" data-name="パス 70" d="M6.651,9.742H19.325q12.809,0,12.809,10.28a9.368,9.368,0,0,1-3.818,8.11q-3.412,2.439-9.375,2.439H12.886V45.64H6.651Zm6.235,4.676V25.9h5.873q7.071,0,7.072-5.828,0-5.649-6.846-5.649Z" transform="translate(4.855 7.112)" fill="#fff"/>
+      <path id="パス_71" data-name="パス 71" d="M42.229,21.972l-5.512,1.581q-.95-4.09-4.519-4.088a4.692,4.692,0,0,0-3.05.9,2.228,2.228,0,0,0-.926,1.83,2.848,2.848,0,0,0,1.016,2.394,10.882,10.882,0,0,0,3.5,1.4l2.123.564q4.609,1.22,6.349,3.14a6.579,6.579,0,0,1,1.535,4.586,6.8,6.8,0,0,1-2.913,5.875A12.364,12.364,0,0,1,32.47,42.1q-8.291,0-10.6-6.349l5.422-1.9q1.22,4.271,5.309,4.27,4.632,0,4.631-3.275a2.677,2.677,0,0,0-1.085-2.374,16.3,16.3,0,0,0-3.818-1.445l-2.123-.588q-4.406-1.173-6.033-3.073a6.964,6.964,0,0,1-1.422-4.654,6.3,6.3,0,0,1,2.778-5.4,11.349,11.349,0,0,1,6.754-1.83q7.749,0,9.941,6.484" transform="translate(15.968 11.307)" fill="#fff"/>
     </g>
   </g>
 </svg>
