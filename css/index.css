@@ -67,14 +67,14 @@ html {
   text-align: center;
 }
 h1.main_ttl { /* タイトルスタイル */
-  font-family: 'Tw Cen MT', 'Century Gothic', 'Avant Garde', 'Poppins', sans-serif;
+  font-family: 'Tw Cen MT', 'Arial Rounded MT Bold', 'Avenir Next', 'Poppins', sans-serif;
   font-weight: 400;
   color: #9CD1AB;
   font-size: 144px;
   margin: 0;
 }
 h1.sub_ttl {
-  font-family: 'Tw Cen MT', 'Century Gothic', 'Avant Garde', 'Poppins', sans-serif;
+  font-family: 'Tw Cen MT', 'Arial Rounded MT Bold', 'Avenir Next', 'Poppins', sans-serif;
   font-weight: 400;
   color: #9CD1AB;
   font-size: 56px;
