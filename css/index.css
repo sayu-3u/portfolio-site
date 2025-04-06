@@ -101,10 +101,10 @@ h1.sub_ttl {
     height: 375px;
  }
     h1.main_ttl {  /* PORTFOLIOサイズ調整 */
-    font-size: 64px;
+    font-size: 56px;
   }
     h1.sub_ttl {   /* SAIMUYUIサイズ調整 */
-    font-size: 24px; 
+    font-size: 16px; 
   }
 }
 
