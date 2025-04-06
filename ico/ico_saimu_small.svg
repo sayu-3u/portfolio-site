@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111.242" height="42.152" viewBox="0 0 111.242 42.152">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_187" data-name="長方形 187" width="111.242" height="42.152" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="ico_saimu_small" transform="translate(0 0)">
+    <g id="グループ_59" data-name="グループ 59" clip-path="url(#clip-path)">
+      <line id="線_58" data-name="線 58" x2="32.411" transform="translate(5 14.161)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+      <line id="線_59" data-name="線 59" y2="21.024" transform="translate(13.697 5)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+      <line id="線_60" data-name="線 60" y2="32.152" transform="translate(28.207 5)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+      <line id="線_61" data-name="線 61" y2="20.025" transform="translate(58.445 17.127)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+      <path id="パス_62" data-name="パス 62" d="M21.811,30.443A8.114,8.114,0,1,1,13.7,22.329a8.114,8.114,0,0,1,8.114,8.114"/>
+      <path id="パス_63" data-name="パス 63" d="M111.242,30.9a9.825,9.825,0,1,1-9.826-9.826,9.826,9.826,0,0,1,9.826,9.826"/>
+      <line id="線_62" data-name="線 62" y1="26.981" x2="26.981" transform="translate(41.878 5)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+      <path id="パス_64" data-name="パス 64" d="M97.835,5,73.325,29.51H101.55" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+    </g>
+  </g>
+</svg>

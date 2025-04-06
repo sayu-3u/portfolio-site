@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="40.222" viewBox="0 0 58 40.222">
+  <defs>
+    <filter id="多角形_2" x="0" y="0" width="58" height="40.222" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#多角形_2)">
+    <path id="多角形_2-2" data-name="多角形 2" d="M19.257.826a1,1,0,0,1,1.487,0L38.5,20.553a1,1,0,0,1-.743,1.669H2.245A1,1,0,0,1,1.5,20.553Z" transform="translate(49 28.22) rotate(180)" fill="#87c799"/>
+  </g>
+</svg>

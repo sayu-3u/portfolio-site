@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_353" data-name="長方形 353" width="70" height="70" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="ico_about_skill_ai" transform="translate(0 0)">
+    <g id="グループ_166" data-name="グループ 166" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="パス_66" data-name="パス 66" d="M63.945,70H6.055A6.062,6.062,0,0,1,0,63.945V6.055A6.062,6.062,0,0,1,6.055,0h57.89A6.062,6.062,0,0,1,70,6.055v57.89A6.062,6.062,0,0,1,63.945,70M6.055,1.73A4.331,4.331,0,0,0,1.73,6.055v57.89A4.331,4.331,0,0,0,6.055,68.27h57.89a4.331,4.331,0,0,0,4.325-4.325V6.055A4.331,4.331,0,0,0,63.945,1.73Z" transform="translate(0 0)" fill="#fff"/>
+      <path id="パス_67" data-name="パス 67" d="M26.037,8.961l11.07,35.9H30.578l-3.05-10.55H16.5l-3.1,10.55H7.489l11-35.9Zm.384,20.717L24.32,22.4q-.407-1.536-2.124-8.833h-.407q-1.152,5.037-2.214,8.788l-1.943,7.32Z" transform="translate(5.467 6.542)" fill="#fff"/>
+      <path id="パス_68" data-name="パス 68" d="M33.322,14.926h-6.3V8.961h6.3Zm-.249,29.935H27.245V19.467h5.828Z" transform="translate(19.725 6.542)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
