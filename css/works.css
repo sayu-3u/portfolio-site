@@ -153,15 +153,15 @@ html {
 }
 h4.sub_ttl { /* テキスト */
 	font-family: 'Zen Kaku Gothic New';
-    color: #707070;    
-    font-size: 16px;
+   　　 color: #707070;    
+    　　font-size: 16px;
 	margin-bottom: 8px;
 }
 .text { /* テキスト */
 	font-family: 'Zen Kaku Gothic New';
-    color: #707070;    
-    font-size: 16px;
-	line-height: 30px;
+    　　color: #707070;    
+    　　font-size: 16px;
+	margin-bottom: 1em; /* リストの間に余白 */
 }
 /* レスポンシブ */
 @media (max-width: 480px) {
