@@ -79,21 +79,22 @@ html {
 /* フォント */
 .works_ttl {
 	font-family: 'Zen Kaku Gothic New';
-    font-weight: 500;
-    color: #707070;    
-    font-size: 30px;
+            font-weight: 600;
+        color: #707070;    
+        font-size: 30px;
 	letter-spacing: 0.1em;
 	margin-right: 16px;
 }
 .subject {
 	font-family: 'Zen Kaku Gothic New';
-    color: #707070;    
-    font-size: 14px;
+        color: #707070;    
+        font-size: 14px;
+             font-weight: 600;
 }
 .works_text {
 	font-family: 'Zen Kaku Gothic New';
-    color: #707070;    
-    font-size: 16px;
+        color: #707070;    
+        font-size: 16px;
 	letter-spacing: 0.1em;
 	line-height: 30px;
 }
@@ -169,9 +170,9 @@ html {
 h4.sub_ttl { /* テキスト */
 	font-family: 'Zen Kaku Gothic New';
     color: #707070;    
-    font-size: 16px;
+    font-size: 20px;
 	margin-bottom: 8px;
-	   font-weight: 700;
+	   font-weight: ;
 }
 .text { /* テキスト */
 	font-family: 'Zen Kaku Gothic New';
