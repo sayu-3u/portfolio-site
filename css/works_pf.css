@@ -78,22 +78,20 @@ html {
 }
 /* フォント */
 .works_ttl {
-    font-family: "Zen Kaku Gothic New", sans-serif;
+	font-family: 'Zen Kaku Gothic New';
     font-weight: 500;
     color: #707070;    
     font-size: 30px;
 	letter-spacing: 0.1em;
 	margin-right: 16px;
-	font-weight: 600;
 }
 .subject {
-    font-family: "Zen Kaku Gothic New", sans-serif;
+	font-family: 'Zen Kaku Gothic New';
     color: #707070;    
     font-size: 14px;
-    font-weight: 600;
 }
 .works_text {
-    font-family: "Zen Kaku Gothic New", sans-serif;
+	font-family: 'Zen Kaku Gothic New';
     color: #707070;    
     font-size: 16px;
 	letter-spacing: 0.1em;
@@ -145,12 +143,20 @@ html {
 .main_view_item img:hover {
   transform: translateY(-10px); /* ちょっと浮かせる */
 }
+.page_ttl { /* フォント*/
+    font-family: 'Zen Kaku Gothic New';
+    color: #707070;    
+    font-size: 16px;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
 
 
 /* 説明欄 */
 .text_view {
 	max-width: 679px; /* 幅679pxで左寄せ・最大幅を指定 */
-        width: 100%; /* 画面幅に応じて調整 */
+    width: 100%; /* 画面幅に応じて調整 */
 	margin: 0 auto;	
 	display: flex;
 	justify-content: flex-start;
@@ -161,15 +167,15 @@ html {
 	gap: 56px 0;	
 }
 h4.sub_ttl { /* テキスト */
-	font-family: "Zen Kaku Gothic New", sans-serif;
-        color: #707070;    
-                 font-size: 20px;
+	font-family: 'Zen Kaku Gothic New';
+    color: #707070;    
+    font-size: 16px;
 	margin-bottom: 8px;
 }
 .text { /* テキスト */
-	font-family: "Zen Kaku Gothic New", sans-serif;
-        color: #707070;    
-        font-size: 16px;
+	font-family: 'Zen Kaku Gothic New';
+    color: #707070;    
+    font-size: 16px;
 	margin-bottom: 1em; /* リストの間に余白 */
 }
 /* レスポンシブ */
