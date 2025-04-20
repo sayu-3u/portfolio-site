@@ -79,22 +79,21 @@ html {
 /* フォント */
 .works_ttl {
 	font-family: 'Zen Kaku Gothic New';
-            font-weight: 600;
-        color: #707070;    
-        font-size: 30px;
+    font-weight: 500;
+    color: #707070;    
+    font-size: 30px;
 	letter-spacing: 0.1em;
 	margin-right: 16px;
 }
 .subject {
 	font-family: 'Zen Kaku Gothic New';
-        color: #707070;    
-        font-size: 14px;
-             font-weight: 600;
+    color: #707070;    
+    font-size: 14px;
 }
 .works_text {
 	font-family: 'Zen Kaku Gothic New';
-        color: #707070;    
-        font-size: 16px;
+    color: #707070;    
+    font-size: 16px;
 	letter-spacing: 0.1em;
 	line-height: 30px;
 }
@@ -168,11 +167,10 @@ html {
 	gap: 56px 0;	
 }
 h4.sub_ttl { /* テキスト */
-        font-family: 'Zen Kaku Gothic New';
-	color: #707070;    
-	font-size: 16px;
+	font-family: 'Zen Kaku Gothic New';
+    color: #707070;    
+    font-size: 16px;
 	margin-bottom: 8px;
-	     font-weight: 600;
 }
 .text { /* テキスト */
 	font-family: 'Zen Kaku Gothic New';
@@ -180,6 +178,10 @@ h4.sub_ttl { /* テキスト */
     font-size: 16px;
 	margin-bottom: 1em; /* リストの間に余白 */
 }
+.list_block {/* ページ・ナビゲーション */
+	margin-bottom: 48px;
+}
+
 /* レスポンシブ */
 @media (max-width: 480px) {
     .flex_colum {
