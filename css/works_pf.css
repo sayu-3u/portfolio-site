@@ -168,10 +168,11 @@ html {
 	gap: 56px 0;	
 }
 h4.sub_ttl { /* テキスト */
-	font-family: 'Zen Kaku Gothic New';
-    color: #707070;    
-    font-size: 16px;
+        font-family: 'Zen Kaku Gothic New';
+	color: #707070;    
+	font-size: 16px;
 	margin-bottom: 8px;
+	     font-weight: 600;
 }
 .text { /* テキスト */
 	font-family: 'Zen Kaku Gothic New';
