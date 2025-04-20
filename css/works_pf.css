@@ -171,6 +171,7 @@ h4.sub_ttl { /* テキスト */
     color: #707070;    
     font-size: 16px;
 	margin-bottom: 8px;
+	   font-weight: 700;
 }
 .text { /* テキスト */
 	font-family: 'Zen Kaku Gothic New';
