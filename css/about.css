@@ -155,14 +155,14 @@ html {
   font-size: 24px;
   font-family: 'Zen Kaku Gothic New';
        font-weight: ;
-  color: #707070;
+  color: #555;
   margin: 24px 0 16px;
      letter-spacing:  2px;
 }
 .strength_text {/* テキスト */
   font-family: 'Zen Kaku Gothic New';
   font-size: 16px;
-  color: #707070;
+  color: #555;
   line-height: 28px;
   text-align: left;
 }
@@ -216,8 +216,8 @@ html {
 .skill_ttl { /* テキスト */
   font-family: 'Zen Kaku Gothic New';
   font-size: 24px;
-  font-weight: 500;
-  color: #707070;
+       font-weight: 600;
+  color: #555;
   line-height: 24px;
   margin-top: 12px;
 	letter-spacing:  2px;
@@ -225,7 +225,7 @@ html {
 .skill_text {
   font-family: 'Zen Kaku Gothic New';
   font-size: 14px;
-  color: #707070;
+  color: #555;
   line-height: 24px;
   margin-top: 12px;
 }
@@ -313,13 +313,13 @@ html {
 	font-family: 'Zen Kaku Gothic New';
     font-size: 16px;
 	font-weight: 500;
-    color: #707070;
+    color: #555;
 	margin: 8px 0 4px;
 }
 .text_container_item p { /* フォント */
 	font-family: 'Zen Kaku Gothic New';
     font-size: 14px;
-    color: #707070;
+    color: #555;
     line-height: 22px;
 }
  /* レスポンシブ対応  */
