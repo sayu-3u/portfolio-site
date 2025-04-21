@@ -89,28 +89,28 @@ html {
   object-position: center; /* 画像の中央を基準にトリミング */
 }
 .background_wrap { /* グレー部分 */
-  background-color: #D7D7D7; /* グレー背景 */
+  background-color: #D0CFCF; /* グレー背景 */
   width: 100%;
   padding: 192px 0 152px;
 }
 .name_jpn {/* 日本語名前フォント */
   font-family: 'Zen Kaku Gothic New';
         font-weight:;
-  color: #555;
+  color: #fff;
   font-size: 40px;
   letter-spacing: 0.5em;
         margin-top: 24px;
 }
 .name_eng { /* 英語名前フォント */
   font-family: 'Zen Kaku Gothic New';
-  color: #555;
+  color: #fff;
   font-size: 16px;
   letter-spacing: 0.3em;
          font-weight: ;
 }
 .about_text { /* 概略部分 */
   font-family: 'Zen Kaku Gothic New';
-  color: #555;
+  color: #fff;
   font-size: 16px;
   letter-spacing: 0.1em;
   line-height: 1.8;
