@@ -127,7 +127,7 @@ html {
 /* Strength  */
 .strength {
   text-align: center;
-  margin: 160px auto 96px;
+  margin: 160px auto;
 }
 .strength_img {
   margin-top: 30px;
@@ -347,7 +347,7 @@ html {
 /* likes */
 .likes {
 	background-color: #fff;
-    padding: 88px 0 144px; /* 上下余白 */
+    padding: 144px 0; /* 上下余白 */
 	display: flex;
 	justify-content: center;
 }
