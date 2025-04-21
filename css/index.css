@@ -137,9 +137,9 @@ p.subject { /* テキスト */
 a.project { /* テキスト */
   font-family: "Zen Kaku Gothic New", sans-serif;
         font-weight: ;
-       letter-spacing:  0.2em;
-  color: #707070;
-  font-size: 24px;
+       letter-spacing:  0.1em;
+  color: #555;
+  font-size: 20px;
   text-decoration: none;
   display: inline-block;/* ホバー時設定 */
   text-decoration: none;/* ホバー時設定 */
