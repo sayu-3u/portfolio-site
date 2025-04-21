@@ -129,14 +129,14 @@ h1.sub_ttl {
 p.subject { /* テキスト */
   font-family: "Zen Kaku Gothic New", sans-serif;
        font-weight: ;
-  color: #707070;
+  color: #555;
   font-size: 14px;
   margin: 24px 0 2px;
 	letter-spacing:  0.1em;
 }
 a.project { /* テキスト */
   font-family: "Zen Kaku Gothic New", sans-serif;
-        font-weight: ;
+        font-weight: 300;
        letter-spacing:  0.1em;
   color: #555;
   font-size: 20px;
