@@ -132,7 +132,7 @@ p.subject { /* テキスト */
   color: #707070;
   font-size: 14px;
   margin: 24px 0 2px;
-	letter-spacing:  0.15em;
+	letter-spacing:  em;
 }
 a.project { /* テキスト */
   font-family: "Zen Kaku Gothic New", sans-serif;
