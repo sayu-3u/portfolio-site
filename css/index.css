@@ -246,7 +246,7 @@ a.project:hover { /* ホバー時 */
 }
 .name_jpn { /* テキスト */
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   color: #fff;
   font-size: 40px;
   letter-spacing: 0.5em;
