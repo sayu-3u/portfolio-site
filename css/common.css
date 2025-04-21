@@ -168,8 +168,8 @@ nav ul li a {
     text-decoration: none;
     font-family: 'Tw Cen MT', 'Arial Rounded MT Bold', 'Avenir Next', 'Poppins', sans-serif;
     color: #9CD1AB;
-    font-size: 16px;
-	transition: transform 0.3s ease, color 0.3s ease, letter-spacing 0.3s ease; /* スムーズな変化をつける */
+        font-size: 20px;
+    transition: transform 0.3s ease, color 0.3s ease, letter-spacing 0.3s ease; /* スムーズな変化をつける */
 }
 /*　ホバー・マーク */
 nav ul li a:hover {
