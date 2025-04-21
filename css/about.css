@@ -91,7 +91,7 @@ html {
 .background_wrap { /* グレー部分 */
   background-color: #D7D7D7; /* グレー背景 */
   width: 100%;
-  padding: 136px 0 96px;
+  padding: 152px 0 152px;
 }
 .name_jpn {/* 日本語名前フォント */
   font-family: 'Zen Kaku Gothic New';
