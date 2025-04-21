@@ -89,7 +89,7 @@ html {
   object-position: center; /* 画像の中央を基準にトリミング */
 }
 .background_wrap { /* グレー部分 */
-  background-color: #9F9F9F; /* グレー背景 */
+  background-color: #AEAEAE; /* グレー背景 */
   width: 100%;
   padding: 192px 0 152px;
 }
