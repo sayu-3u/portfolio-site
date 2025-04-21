@@ -277,7 +277,7 @@ a.project:hover { /* ホバー時 */
   display: inline-block;
   padding: 16px 48px; /* ボタンの余白 */
   border: 2px solid #fff; /* 白色の枠線 */
-  border-radius: 8px; /* 角を丸くする */
+  border-radius: 16px; /* 角を丸くする */
   text-align: center;
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
