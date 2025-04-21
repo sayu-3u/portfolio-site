@@ -91,26 +91,26 @@ html {
 .background_wrap { /* グレー部分 */
   background-color: #D7D7D7; /* グレー背景 */
   width: 100%;
-  padding: 152px 0 152px;
+  padding: 192px 0 152px;
 }
 .name_jpn {/* 日本語名前フォント */
   font-family: 'Zen Kaku Gothic New';
       font-weight: 600;
-  color: #fff;
+  color: #555555;
   font-size: 40px;
   letter-spacing: 0.5em;
   margin-top: 16px;
 }
 .name_eng { /* 英語名前フォント */
   font-family: 'Zen Kaku Gothic New';
-  color: #fff;
+  color: #555555;
   font-size: 16px;
   letter-spacing: 0.3em;
       font-weight: 600;
 }
 .about_text { /* 概略部分 */
   font-family: 'Zen Kaku Gothic New';
-  color: #fff;
+  color: #555555;
   font-size: 16px;
   letter-spacing: 0.1em;
   line-height: 1.8;
