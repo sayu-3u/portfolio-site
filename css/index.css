@@ -128,7 +128,7 @@ h1.sub_ttl {
 }
 p.subject { /* テキスト */
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: ;
+      font-weight: 500;
   color: #555;
        font-size: 12px;
   margin: 24px 0 2px;
