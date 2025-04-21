@@ -80,20 +80,20 @@ html {
 .works_ttl {
 	font-family: 'Zen Kaku Gothic New';
             font-weight: 600;
-        color: #707070;    
+        color: #555;    
         font-size: 30px;
 	letter-spacing: 0.1em;
 	margin-right: 16px;
 }
 .subject {
 	font-family: 'Zen Kaku Gothic New';
-        color: #707070;    
+        color: #555;    
         font-size: 14px;
              font-weight: 600;
 }
 .works_text {
 	font-family: 'Zen Kaku Gothic New';
-        color: #707070;    
+        color: #555;    
         font-size: 16px;
 	letter-spacing: 0.1em;
 	line-height: 30px;
@@ -169,14 +169,14 @@ html {
 }
 h4.sub_ttl { /* テキスト */
 	font-family: 'Zen Kaku Gothic New';
-        color: #707070;    
+        color: #555;    
         font-size: 16px;
 	margin-bottom: 8px;
 	   letter-spacing: 0.08em;
 }
 .text { /* テキスト */
 	font-family: 'Zen Kaku Gothic New';
-    color: #707070;    
+    color: #555;    
     font-size: 16px;
 	margin-bottom: 1em; /* リストの間に余白 */
 }
