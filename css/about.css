@@ -188,7 +188,7 @@ html {
 /* skill */
 .Skill {
   background-color: #E4E4E4;
-  padding: 88px 0;
+  padding: 104px 0;
 }
 .skill_wrap { /* 4カラムレイアウト */
   width: 100%;
@@ -270,7 +270,7 @@ html {
 /* career */
 .career {
 	background-color: #E4E4E4;
-    padding: 80px 0 160px;
+    padding: 80px 0 176px;
 }
 .career_wrap { /* アイコンとテキストを横レイアウト */
 	width: 100%;
