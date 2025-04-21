@@ -128,7 +128,7 @@ h1.sub_ttl {
 }
 p.subject { /* テキスト */
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 500;
+       font-weight: ;
   color: #707070;
   font-size: 14px;
   margin: 24px 0 2px;
@@ -136,7 +136,7 @@ p.subject { /* テキスト */
 }
 a.project { /* テキスト */
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 500;
+        font-weight: ;
        letter-spacing:  0.2em;
   color: #707070;
   font-size: 24px;
@@ -222,7 +222,7 @@ a.project:hover { /* ホバー時 */
 .about {
   background-color: #C6C6C6;
   width: 100%;
-  padding: 64px 0;
+  padding: 96px 0;
   display: flex;   /* 上下中央配置 */
   align-items: center;
 }	
